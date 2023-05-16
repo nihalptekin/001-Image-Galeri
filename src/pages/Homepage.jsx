@@ -1,5 +1,4 @@
 import React from "react";
-
 import "../styles/style.css";
 
 const Homepage = ({ data }) => {
@@ -14,10 +13,10 @@ const Homepage = ({ data }) => {
         return (
           <div className="main" key={id}>
             <div className="picture">
-              <img src={src.large} />
+              <img src={src.large} alt="#"/>
             </div>
             <div className="link">
-              <a href="#">{photographer}</a>
+              <li href="#" >{photographer}</li>
             </div>
           </div>
          
